@@ -16,7 +16,7 @@ Run `python main.py <CurrencyToDisplay> <MaximumNumberOfGamesToSearch> <Exchange
 * beautifulsoup4
 * python-dotenv
 
-* An ExchangeRate-API key either stored in a .env file:
+* An [ExchangeRate-API](https://app.exchangerate-api.com/) key either stored in a .env file:
 
     `EXCHANGE_RATE_API_KEY = <ExchangeRate-APIKey>`
     
