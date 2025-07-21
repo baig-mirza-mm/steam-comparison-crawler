@@ -5,6 +5,9 @@ This is a program I developed to explore web crawling, accessing data via APIs, 
 
 The program searches steam for a list of games and compares their prices across different regions. The result is exported to a .csv.
 
+Example with prices in CAD (Opening the CSV in Microsoft Data Wrangler):
+![Example .csv](assets/showcase.png)
+
 ## Using
 Run `python main.py <CurrencyToDisplay> <MaximumNumberOfGamesToSearch> <ExchangeRate-APIKey?>` in the program's directory
 
