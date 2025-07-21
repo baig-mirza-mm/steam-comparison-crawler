@@ -42,7 +42,7 @@ def initialize_app_with_currency(app: SteamApp, currency: Currency):
             )
 
             # convert the price from cents into whole dollars
-            app.price[currency] = price_in_cents / 100
+            app.price[currency] = round(price_in_cents / 100, 2)
     except urllib.error.HTTPError:
         # sleep for 1 minute before doing any more requests
         print("Received an HTTPError. Waiting 1 minute before proceeding...")
